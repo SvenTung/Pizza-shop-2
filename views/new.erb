@@ -1,0 +1,24 @@
+<div id="create">
+<form action="/pizzas" method="post">
+  <label for="first-name">First Name:</label>
+    <input type="text" id = "first-name" name="first_name">
+
+  <label for="last-name">Last Name:</label>
+    <input type="text" id = "last-name" name="last_name">
+
+  <label for="pizza-select">Select a pizza:</label>
+  <select id = "pizza-select" name="topping">
+    <option value="Margherita">Margherita</option>
+    <option value="Calzone">Calzone</option>
+    <option value="Pepperoni">Pepperoni</option>
+    <option value="Vegetarian">Vegetarian</option>
+    <option value="Hawaiian">Hawaiian</option>
+    <option value="Chicken">Chicken</option>
+  </select>
+
+  <label for="quantity">Choose your quantity:</label>
+    <input type="number" id = "quantity" name="quantity" min= "1">
+
+  <input type="submit" value="order pizza">
+</form>
+</div>
